@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Train Scheduler</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+</head>
+
+<body>
+<div class="jumbotron">
+<h1 class="text-center">Anytime is Train Time</h1>
+</div>
+<div class="container schedule-container">
+<div class="row">          
+<div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+<div class="panel panel-primary">
+<div class="panel-heading">
+<h3 class="panel-title">Current Train Schedule</h3>
+</div>
+<div class="panel-body">
+<table class="train-schedule">
+<tr>
+<th class="col-xs-3">Train Name</th>
+<th class="col-xs-2">Destination</th>
+<th class="col-xs-2">Frequency (calculated in min)</th>
+<th class="col-xs-2">Next Arrival</th>
+<th class="col-xs-2">Mins Away</th>
+ </tr>
+</table>
+
+                        </div>  
+                   </div> 
+              </div> 
+         </div> 
+    </div>  
+
+     <div class="container input-container">
+          <div class="row">
+
+            
+              <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+                   <div class="panel panel-primary">
+                        <div class="panel-heading">
+                             <h3 class="panel-title">Add Train</h3>
+                        </div>
+                        <div class="panel-body">
+
+                             <form role="form">
+                               <div class="form-group">
+                                 <label for="text">Train Name</label>
+                                 <input type="text" class="form-control" id="name-input">
+                               </div>
+                               <div class="form-group">
+                                 <label for="text">Destination</label>
+                                 <input type="text" class="form-control" id="destination-input">
+                               </div>
+                               <div class="form-group">
+                                 <label for="text">First Train Time (HH:mm - military time)</label>
+                                 <input type="text" class="form-control" id="first-train-time-input">
+                               </div>
+                               <div class="form-group">
+                                 <label for="comment">Frequency (min)</label>
+                                 <input type="text" class="form-control" id="frequency-input">
+                               </div>
+                               <button type="submit" class="btn btn-primary" id="add-train">Submit</button>
+                             </form>
+
+                        </div>  
+                   </div> 
+              </div> 
+         </div> 
+    </div>  
+    <script src="https://www.gstatic.com/firebasejs/3.6.7/firebase.js"></script>
+
+ 
+
+
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+  <!-- LINK TO FIREBASE GOES HERE -->
+  
+  <!-- Script -->
+
+ <script src="logic.js"></script>
+
+  <script>
+    //  START CODING BELOW!!
+
+    // Initialize Firebase
+
+
+    // Create a variable to reference the database
+
+
+    // Capture Button Click
+    //$("#add-user").on("click", function() {
+
+      // YOUR TASK!!!
+
+      // Code in the logic for storing and retrieving the most recent user.
+
+      // Don't forget to handle the "initial load"
+
+
+      // Don't refresh the page!
+      //return false;
+    //});
+
+
+    // Create Firebase "watcher" Hint: .on("value")
+
+
+    // Create Error Handling
+  </script>
+  </body>
+  </html>
+
+
+
+</body>
+</html>
